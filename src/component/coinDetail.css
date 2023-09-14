@@ -1,0 +1,166 @@
+.coin-details h1 {
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coin-price-conatiner {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 20px;
+  border-radius: 20px;
+}
+
+.ranks {
+  margin-bottom: 10px;
+  background: blue;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70px;
+  color: white;
+}
+
+.pp {
+  margin-left: 20px;
+}
+
+.dd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soleil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .ss {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+} */
+.details {
+  display: flex;
+  align-items: center; /* Align children to the right within .details */
+  gap: 80px; /* Add spacing between child elements */
+  justify-content: flex-end;
+}
+
+.details img {
+  width: 50px;
+  height: 50px;
+}
+
+.coinddd {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgb(215, 213, 215);
+  cursor: pointer;
+}
+
+.percentages,
+.percentages-value {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 25px 1px 25px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1); */
+  background: rgb(215, 213, 215);
+  cursor: pointer;
+  gap: 8px;
+}
+
+.percentages h3 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: rgb(27, 25, 23);
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.percentages-value {
+  padding-top: 5px;
+}
+.percentages-value p {
+  text-align: center;
+  background: rgb(168, 164, 160);
+  padding: 15px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.makert,
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgb(215, 213, 215);
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 20px;
+}
+/* .ath {
+  display: flex;
+} */
+.ath > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 2px solid grey;
+  align-items: center;
+}
+
+.makert-cap > div {
+  border-bottom: 2px solid grey;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  flex-direction: column;
+}
+
+.about > h2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  .details {
+    gap: 5px;
+  }
+  .makert {
+    flex-direction: column;
+  }
+
+  .ath {
+    margin-bottom: 20px;
+  }
+
+  .soleil,
+  .ranks {
+    padding: 5px;
+  }
+  .percentages h3 {
+    width: 50px;
+    padding: 5px;
+  }
+
+  .percentages-value p {
+    width: 50px;
+    padding: 5px;
+  }
+}

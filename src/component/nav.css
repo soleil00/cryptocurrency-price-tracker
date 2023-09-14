@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid grey;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    flex-direction: column-reverse;
+  }
+  input {
+    margin: 20px;
+  }
+}
