@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soleil00/cryptocurrency-price-tracker/static/css/main.f38f12c5.css",
+    "main.js": "/soleil00/cryptocurrency-price-tracker/static/js/main.2bdac695.js",
+    "index.html": "/soleil00/cryptocurrency-price-tracker/index.html",
+    "main.f38f12c5.css.map": "/soleil00/cryptocurrency-price-tracker/static/css/main.f38f12c5.css.map",
+    "main.2bdac695.js.map": "/soleil00/cryptocurrency-price-tracker/static/js/main.2bdac695.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38f12c5.css",
+    "static/js/main.2bdac695.js"
+  ]
+}
