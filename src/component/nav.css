@@ -3,6 +3,14 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-vector/gradient-style-network-connection-background_23-2148876716.jpg");
+  height: 200px;
+  background-size: cover;
+}
+
+nav h1 {
+  color: red;
 }
 
 input {
@@ -21,4 +29,8 @@ input {
   input {
     margin: 20px;
   }
+}
+
+.alice {
+  display: none!;
 }

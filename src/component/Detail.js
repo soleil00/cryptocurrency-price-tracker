@@ -1,6 +1,7 @@
 import React from "react";
+import ChartComp from "./ChartComp";
 
-function Detail({ coin }) {
+function Detail({ coin, selectedId }) {
   const {
     symbol,
     market_cap_rank,
@@ -40,22 +41,7 @@ function Detail({ coin }) {
         </div>
       </div>
       <div className="ss">
-        <div className="percentages">
-          <h3>1h</h3>
-          <h3>24h</h3>
-          <h3>7d</h3>
-          <h3>14d</h3>
-          <h3>30d</h3>
-          <h3>1Y</h3>
-        </div>
-        <div className="percentages-value">
-          <p>1%</p>
-          <p>1%</p>
-          <p>4%</p>
-          <p>-56%</p>
-          <p>12%</p>
-          <p>-10%</p>
-        </div>
+        <ChartComp selectedId={selectedId} />
       </div>
       <div className="makert">
         <div className="ath">

@@ -6,8 +6,8 @@ import "./coinDetail.css";
 function CoinDetails({ coins, setShowSearchBox }) {
   setShowSearchBox(false);
   const { id } = useParams();
-  console.log(coins);
-  console.log("this is selected id " + id);
+  // console.log(coins);
+  // console.log("this is selected id " + id);
 
   const match = coins.find((coin) => coin.id === id);
 
@@ -17,7 +17,7 @@ function CoinDetails({ coins, setShowSearchBox }) {
 
   return (
     <div className="coins-details">
-      <Detail coin={match} />
+      <Detail coin={match} selectedId={id} />
     </div>
   );
 }

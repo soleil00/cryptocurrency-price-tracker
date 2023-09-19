@@ -5,7 +5,7 @@ function CoinItem({ coin }) {
   const change = coin.price_change_percentage_24h;
   const sign = change > 0 ? "+" : "";
 
-  console.log(coin.name);
+  // console.log(coin.name);
   return (
     <Link
       to={`/coin/${coin.id}`}
@@ -21,8 +21,12 @@ function CoinItem({ coin }) {
         {sign}
         {coin.price_change_percentage_24h.toFixed(2)}%
       </div>
-      <div className="hide-mobile">${coin.total_volume.toLocaleString()}</div>
-      <div className="hide-mobile">${coin.market_cap.toLocaleString()}</div>
+      <div className="hide-mobile">
+        ${coin.total_volume.toLocaleString().slice(0, -6)}M
+      </div>
+      <div className="hide-mobile">
+        ${coin.market_cap.toLocaleString().slice(0, -6)}M
+      </div>
     </Link>
   );
 }
