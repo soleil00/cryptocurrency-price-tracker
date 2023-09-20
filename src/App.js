@@ -4,13 +4,17 @@ import Coin from "./component/Coin";
 import Nav from "./component/Nav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CoinDetails from "./component/CoinDetails";
+import { useContext } from "react";
+import { PageContext } from "./component/Context";
 
 function App() {
   const url =
-    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false&locale=en";
+    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en";
   const [coins, setCoins] = useState([]);
   const [originalCoins, setOriginalCoins] = useState([]);
   const [showSearchBox, setShowSearchBox] = useState(false);
+
+  const { page } = useContext(PageContext);
 
   useEffect(() => {
     axios

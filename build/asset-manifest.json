@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/soleil00/crypto/static/css/main.f38f12c5.css",
-    "main.js": "/soleil00/crypto/static/js/main.2bdac695.js",
-    "index.html": "/soleil00/crypto/index.html",
-    "main.f38f12c5.css.map": "/soleil00/crypto/static/css/main.f38f12c5.css.map",
-    "main.2bdac695.js.map": "/soleil00/crypto/static/js/main.2bdac695.js.map"
+    "main.css": "/crypto/static/css/main.7c08ba79.css",
+    "main.js": "/crypto/static/js/main.8a2a318b.js",
+    "index.html": "/crypto/index.html",
+    "main.7c08ba79.css.map": "/crypto/static/css/main.7c08ba79.css.map",
+    "main.8a2a318b.js.map": "/crypto/static/js/main.8a2a318b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f38f12c5.css",
-    "static/js/main.2bdac695.js"
+    "static/css/main.7c08ba79.css",
+    "static/js/main.8a2a318b.js"
   ]
 }

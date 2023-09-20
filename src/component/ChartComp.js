@@ -16,7 +16,7 @@ const Chart = ({ selectedId }) => {
     setLoading(true);
     try {
       const { data } = await axios.get(url);
-      console.log("this si data:", data);
+      // console.log("this si data:", data);
       setChartData(data.prices);
     } catch (error) {
       // Handle the error here
@@ -46,7 +46,7 @@ const Chart = ({ selectedId }) => {
   ];
 
   // console.log("selectedId:", selectedId);
-  console.log("this is real prices array ", chartData);
+  // console.log("this is real prices array ", chartData);
 
   useEffect(() => {
     fetchChart();
@@ -62,7 +62,7 @@ const Chart = ({ selectedId }) => {
     return days === 1 ? time : date;
   });
 
-  console.log("here is kaxung dat:", kazungu);
+  // console.log("here is kaxung dat:", kazungu);
 
   return (
     <div>

@@ -54,3 +54,22 @@ img {
     display: none;
   }
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.active {
+  background: rgb(33, 111, 54);
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: none;
+}

@@ -22,7 +22,7 @@ function CoinItem({ coin }) {
         {coin.price_change_percentage_24h.toFixed(2)}%
       </div>
       <div className="hide-mobile">
-        ${coin.total_volume.toLocaleString().slice(0, -6)}M
+        ${coin.total_volume.toLocaleString().slice()}0, -6M
       </div>
       <div className="hide-mobile">
         ${coin.market_cap.toLocaleString().slice(0, -6)}M
